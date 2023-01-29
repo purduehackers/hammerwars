@@ -13,7 +13,15 @@ module.exports = {
       main: '"Space Grotesk", system-ui, Roboto, sans-serif',
       mono: '"Space Mono"'
     },
-    extend: {},
+    extend: {
+      height: {
+        'frame': '48rem'
+      },
+      fontSize: {
+        'sm-title': '4rem',
+        'title': '8rem'
+      }
+    },
   },
   plugins: [],
 }
