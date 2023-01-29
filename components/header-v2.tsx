@@ -10,16 +10,16 @@ const HeaderV2 = () => {
                         <div className="w-4 h-4 border-4 border-black"></div>
                     </div>
                     <div className="w-8 border-l-8 border-black flex justify-center place-items-center font-bold text-xl">
-                        <div className='cross'>x</div>
+                        <div className='cross'>X</div>
                     </div>
                 </div>
-                <div className="flex flex-col justify-center h-full p-4 font-mono font-medium">
-                    <div className="text-4xl w-fit sm:text-6xl md:text-title
+                <div className="flex flex-col justify-center items-center h-full p-4 font-mono font-medium text-9xl sm:text-6xl md:text-9xl">
+                    <div className="w-fit
                         bg-gradient-to-r from-green-400 to-green-400
                         bg-no-repeat [background-position:0_100%]
                         [background-size:100%_0.2em]"
                     >Hammer</div>
-                    <div className="text-4xl w-fit sm:text-6xl md:text-title
+                    <div className="w-fit
                         bg-gradient-to-r from-green-400 to-green-400
                         bg-no-repeat [background-position:0_100%]
                         [background-size:100%_0.2em]"
