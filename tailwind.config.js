@@ -9,17 +9,17 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      main: '"Space Grotesk", system-ui, Roboto, sans-serif',
-      mono: '"Space Mono"'
-    },
     extend: {
+      fontFamily: {
+        main: ["Space Grotesk", "system-ui", "Roboto", "sans-serif"],
+        mono: ["Space Mono", "monospace"]
+      },
       height: {
         'frame': '48rem'
       },
       fontSize: {
         'sm-title': '4rem',
-        'title': '8rem'
+        'title': '15rem'
       }
     },
   },
