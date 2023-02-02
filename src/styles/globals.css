@@ -12,4 +12,10 @@
   html {
     @apply font-mono
   }
+  body {
+    background-size: 60px 60px;
+    background-image:
+      linear-gradient(to right, #CBCBCB 1px, transparent 1px),
+      linear-gradient(to bottom, #CBCBCB 1px, transparent 1px);
+  }
 }

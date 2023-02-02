@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <HeaderV2 />
-      <About></About>
-      <Sponsors></Sponsors>
+      {/* <About></About> */}
+      {/* <Sponsors></Sponsors> */}
     </>
   )
 }
