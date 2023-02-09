@@ -17,6 +17,7 @@ const Footer = () => {
               href="https://github.com/purduehackers/hammerwars"
               target="_blank"
               className="decoration-amber-400 dark:decoration-amber-500 hover:decoration-[3px]"
+              rel="noreferrer"
             >
               Open source
             </a>
@@ -27,6 +28,7 @@ const Footer = () => {
               href="https://vercel.com?utm_source=purdue-hackers&utm_campaign=oss"
               target="_blank"
               className="decoration-amber-400 dark:decoration-amber-500 hover:decoration-[3px]"
+              rel="noreferrer"
             >
               Powered by ▲Vercel
             </a>
