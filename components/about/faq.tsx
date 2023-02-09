@@ -1,7 +1,8 @@
 const Faq = () => {
     return (
-        <div>
-            <p>Faq content</p>
+        <div className="px-4">
+            <h1 className="text-4xl font-medium">FAQ</h1>
+            <p>intro content</p>
         </div>
     )
 }
