@@ -28,7 +28,7 @@ const Sponsors = () => {
                     </div>
                     <div className="w-4/5 bg-white border-8 border-black h-4/5">
                         <div className="flex flex-col h-full overflow-auto place-items-center">
-                            <div className="text-6xl font-medium sm:text-7xl md:text-9xl">
+                            <div className="text-6xl font-medium sm:text-7xl md:text-8xl">
                                 <div className="w-fit 
                                     bg-gradient-to-r from-violet-400 to-violet-400
                                     bg-no-repeat [background-position:0_100%]

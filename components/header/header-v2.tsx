@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useContext } from "react"
 import Draggable from "react-draggable"
 
@@ -10,8 +11,8 @@ const HeaderV2 = () => {
             <Draggable disabled={!draggable} handle=".handle">
                 <div className="flex flex-col justify-center w-full h-full place-items-center">
                     <div className="flex w-4/5 h-8 border-t-8 border-black border-x-8 handle bg-amber-200">
-                        <div className="flex justify-start w-1/2 pl-5">
-                            header.html
+                        <div className="flex justify-start w-1/2 pl-5 underline">
+                            <Link href="/source-code">header.html</Link>
                         </div>
                         <div className="flex justify-end w-1/2">
                             <div className="flex justify-center w-8 border-l-8 border-black place-items-center">
