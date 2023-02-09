@@ -4,7 +4,8 @@ import { useState, useEffect, useMemo } from 'react'
 
 import HeaderV2 from 'components/header-v2'
 import AboutV3 from 'components/about/about-v3'
-import Sponsors from 'components/sponsors'
+import Sponsors from 'components/sponsors/sponsors'
+import Footer from 'components/footer/footer'
 import { DraggableContext, DraggableInterface } from 'context/draggable-context'
 
 export default function Home() {
@@ -53,9 +54,8 @@ export default function Home() {
     <DraggableContext.Provider value={value}>
       <HeaderV2 />
       <AboutV3 />
-      {/* <AboutV2 /> */}
-      {/* <About></About> */}
-      {/* <Sponsors></Sponsors> */}
+      <Sponsors />
+      <Footer />
     </DraggableContext.Provider>
   )
 }
