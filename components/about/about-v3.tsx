@@ -52,7 +52,7 @@ const AboutV3 = () => {
                         </div>
                         
                     </div>
-                    <div className="flex justify-center w-4/5 gap-8 border-b-8 border-black bg-slate-100 h-1/5 border-x-8">
+                    <div className="flex justify-center w-4/5 gap-8 overflow-y-auto border-b-8 border-black bg-slate-100 h-1/5 border-x-8">
                         <div className="flex flex-col place-items-center">
                             <Image
                                 src="/about/file.png"
