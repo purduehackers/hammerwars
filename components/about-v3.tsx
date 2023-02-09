@@ -1,11 +1,20 @@
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import Draggable from "react-draggable"
 import Image from "next/image"
+import Faq from "./about/faq"
+import Intro from "./about/intro"
 
 import { DraggableContext } from '../context/draggable-context'
 
+const files = {
+    "intro": <Intro />,
+    "faq": <Faq />,
+}
+
 const AboutV3 = () => {
     const { draggable } = useContext(DraggableContext);
+    const [file, setFile] = useState<string>("intro");
+    
     return (
         <div className="flex justify-center h-screen place-items-center max-w-screen">
             <Draggable disabled={!draggable} handle=".handle">
@@ -24,7 +33,7 @@ const AboutV3 = () => {
                             <div className="flex justify-center w-8 text-xl font-bold border-l-8 border-black place-items-center">
                                 <div className='cross'>X</div>
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                     <div className="w-4/5 bg-white border-8 border-black h-3/5">
                         <div className="flex flex-col h-full overflow-auto place-items-center">
@@ -36,10 +45,7 @@ const AboutV3 = () => {
                                 >About</div>
                             </div>
                             <div className="w-4/5 mt-4 border-t-4 border-slate-400"></div>
-                            <div className="p-4">
-                                <h1 className="text-4xl font-medium">What is Hammerwars?</h1>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dui ultricies, blandit leo sed, tempus ante. Sed auctor ultricies nisi, vitae porttitor neque vehicula eget. Vestibulum vel consectetur libero. Integer tincidunt, neque eu efficitur malesuada, erat metus bibendum dolor, et viverra diam libero vel ex. Nam luctus faucibus tempus. Aliquam elit quam, aliquam vitae ornare ac, iaculis ac nisi. Sed vel arcu orci. Maecenas blandit nunc vel ligula fringilla, nec lacinia risus condimentum. Maecenas molestie magna commodo ex lobortis, sit amet ullamcorper arcu porttitor. Aliquam varius facilisis sem eget auctor. Praesent libero diam, pharetra in imperdiet a, iaculis non velit. Nam at bibendum lorem. Donec malesuada efficitur lacus, nec sodales magna congue at. Nam sagittis vestibulum neque, sit amet aliquet elit molestie ut. Fusce sagittis, quam eu lacinia dictum, tortor ligula iaculis tortor, scelerisque sollicitudin nisl ipsum dapibus libero. Integer at est eu magna ornare euismod. Sed pellentesque, metus eget consequat sollicitudin, elit lacus bibendum sem, id elementum mi odio at lacus. Praesent laoreet eros ante, quis suscipit metus vulputate sit amet. Maecenas viverra enim id consequat vulputate.
-                            </div>
+                            {files[file as keyof typeof files]}
                         </div>
                         
                     </div>
@@ -47,10 +53,11 @@ const AboutV3 = () => {
                         <div className="flex flex-col place-items-center">
                             <Image
                                 src="/file.svg"
-                                alt="Picture of the author"
+                                alt="intro"
                                 width={50}
                                 height={50}
                                 className="mt-5"
+                                onClick={() => setFile("intro")}
                             />
                             <p className="">
                                 intro<br />
@@ -60,10 +67,11 @@ const AboutV3 = () => {
                         <div className="flex flex-col place-items-center">
                             <Image
                                 src="/file.svg"
-                                alt="Picture of the author"
+                                alt="faq"
                                 width={50}
                                 height={50}
                                 className="mt-5"
+                                onClick={() => setFile("faq")}
                             />
                             <p className="">
                                 faq<br />
@@ -72,10 +80,10 @@ const AboutV3 = () => {
                         </div>
                         <div className="flex flex-col place-items-center">
                             <Image
-                                src="/file.svg"
+                                src="/folder.svg"
                                 alt="Picture of the author"
-                                width={50}
-                                height={50}
+                                width={70}
+                                height={70}
                                 className="mt-5"
                             />
                             <p className="">
