@@ -35,21 +35,27 @@ const Sponsors = () => {
                                     [background-size:100%_0.2em] mt-5"
                                 >Sponsors</div>
                             </div>
-                            <div className="mt-4 border-t-4 border-slate-400"></div>
-                            <Image
-                                src="/sponsors/deloitte.png"
-                                alt="intro"
-                                width={400}
-                                height={400}
-                                className="mt-5"
-                            />
-                            <Image
-                                src="/sponsors/aws.webp"
-                                alt="intro"
-                                width={350}
-                                height={350}
-                                className="mt-5"
-                            />    
+                            <div className="grid grid-flow-row grid-cols-4 gap-4 px-4">
+                                <div className="flex place-items-center justify-self-center">
+                                    <Image
+                                        src="/sponsors/deloitte.png"
+                                        alt="intro"
+                                        width={300}
+                                        height={300}
+                                        className="mt-5"
+                                    />
+                                </div>
+                                
+                                <div className="flex place-items-center justify-self-center">
+                                    <Image
+                                        src="/sponsors/aws.webp"
+                                        alt="intro"
+                                        width={250}
+                                        height={250}
+                                        className="mt-5"
+                                    />
+                                </div>
+                            </div>
                         </div> 
                                            
                     </div>

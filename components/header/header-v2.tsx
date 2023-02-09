@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import Draggable from "react-draggable"
 
-import { DraggableContext } from '../context/draggable-context'
+import { DraggableContext } from '../../context/draggable-context'
 
 const HeaderV2 = () => {
     const { draggable } = useContext(DraggableContext);

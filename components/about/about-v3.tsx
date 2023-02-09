@@ -47,7 +47,7 @@ const AboutV3 = () => {
                                     [background-size:100%_0.2em] mt-5"
                                 >About</div>
                             </div>
-                            <div className="mt-4 border-t-4 border-slate-400"></div>
+                            <div className="mt-4"></div>
                             {files[file as keyof typeof files]}
                         </div>
                         

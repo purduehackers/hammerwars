@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useState, useEffect, useMemo } from 'react'
 
-import HeaderV2 from 'components/header-v2'
+import HeaderV2 from 'components/header/header-v2'
 import AboutV3 from 'components/about/about-v3'
 import Sponsors from 'components/sponsors/sponsors'
 import Footer from 'components/footer/footer'
