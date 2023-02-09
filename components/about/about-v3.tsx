@@ -1,19 +1,22 @@
 import { useContext, useState } from "react"
 import Draggable from "react-draggable"
 import Image from "next/image"
-import Faq from "./about/faq"
-import Intro from "./about/intro"
+import Faq from "./faq"
+import Intro from "./intro"
 
-import { DraggableContext } from '../context/draggable-context'
+import { DraggableContext } from '../../context/draggable-context'
 
 const files = {
     "intro": <Intro />,
     "faq": <Faq />,
+    "pic": <div>pic</div>
 }
 
 const AboutV3 = () => {
     const { draggable } = useContext(DraggableContext);
     const [file, setFile] = useState<string>("intro");
+
+    const selectedAttributes = "";
     
     return (
         <div className="flex justify-center h-screen place-items-center max-w-screen">
@@ -59,7 +62,7 @@ const AboutV3 = () => {
                                 className="mt-5"
                                 onClick={() => setFile("intro")}
                             />
-                            <p className="">
+                            <p className={file == "intro" ? "bg-blue-300": ""}>
                                 intro<br />
                                 .txt
                             </p>
@@ -73,7 +76,7 @@ const AboutV3 = () => {
                                 className="mt-5"
                                 onClick={() => setFile("faq")}
                             />
-                            <p className="">
+                            <p className={file == "faq" ? "bg-blue-300": ""}>
                                 faq<br />
                                 .txt
                             </p>
@@ -85,8 +88,9 @@ const AboutV3 = () => {
                                 width={70}
                                 height={70}
                                 className="mt-5"
+                                onClick={() => setFile("pic")}
                             />
-                            <p className="">
+                            <p className={file == "pic" ? "bg-blue-300": ""}>
                                 pic<br />
                             </p>
                         </div>

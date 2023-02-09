@@ -3,9 +3,7 @@ import Image from 'next/image'
 import { useState, useEffect, useMemo } from 'react'
 
 import HeaderV2 from 'components/header-v2'
-import AboutV2 from 'components/about-v2'
-import AboutV3 from 'components/about-v3'
-import About from 'components/about'
+import AboutV3 from 'components/about/about-v3'
 import Sponsors from 'components/sponsors'
 import { DraggableContext, DraggableInterface } from 'context/draggable-context'
 

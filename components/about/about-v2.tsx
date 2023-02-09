@@ -2,7 +2,7 @@ import { useContext } from "react"
 import Draggable from "react-draggable"
 import Image from "next/image"
 
-import { DraggableContext } from '../context/draggable-context'
+import { DraggableContext } from '../../context/draggable-context'
 
 const AboutV2 = () => {
     const { draggable } = useContext(DraggableContext);
