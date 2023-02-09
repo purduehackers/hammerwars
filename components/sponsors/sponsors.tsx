@@ -36,7 +36,22 @@ const Sponsors = () => {
                                 >Sponsors</div>
                             </div>
                             <div className="mt-4 border-t-4 border-slate-400"></div>
-                        </div>                        
+                            <Image
+                                src="/sponsors/deloitte.png"
+                                alt="intro"
+                                width={400}
+                                height={400}
+                                className="mt-5"
+                            />
+                            <Image
+                                src="/sponsors/aws.webp"
+                                alt="intro"
+                                width={350}
+                                height={350}
+                                className="mt-5"
+                            />    
+                        </div> 
+                                           
                     </div>
                 </div>
             </Draggable>

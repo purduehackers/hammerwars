@@ -55,7 +55,7 @@ const AboutV3 = () => {
                     <div className="flex justify-center w-4/5 gap-8 border-b-8 border-black bg-slate-100 h-1/5 border-x-8">
                         <div className="flex flex-col place-items-center">
                             <Image
-                                src="/file.png"
+                                src="/about/file.png"
                                 alt="intro"
                                 width={60}
                                 height={60}
@@ -69,7 +69,7 @@ const AboutV3 = () => {
                         </div>
                         <div className="flex flex-col place-items-center">
                             <Image
-                                src="/file.png"
+                                src="/about/file.png"
                                 alt="faq"
                                 width={60}
                                 height={60}
@@ -83,7 +83,7 @@ const AboutV3 = () => {
                         </div>
                         <div className="flex flex-col place-items-center">
                             <Image
-                                src="/folder.png"
+                                src="/about/folder.png"
                                 alt="Picture of the author"
                                 width={70}
                                 height={70}
