@@ -6,6 +6,7 @@ const FooterLinks = () => (
       href="https://github.com/purduehackers"
       className="transition hover:text-gray-600"
       target="_blank"
+      rel="noreferrer"
     >
       <Github height={32} width={32} />
     </a>
@@ -13,6 +14,7 @@ const FooterLinks = () => (
       href="https://instagram.com/purduehackers"
       className="transition hover:text-gray-600"
       target="_blank"
+      rel="noreferrer"
     >
       <Instagram height={32} width={32} />
     </a>
@@ -20,6 +22,7 @@ const FooterLinks = () => (
       href="https://puhack.horse/discord"
       className="transition hover:text-gray-600"
       target="_blank"
+      rel="noreferrer"
     >
       <Discord height={32} width={32} />
     </a>
