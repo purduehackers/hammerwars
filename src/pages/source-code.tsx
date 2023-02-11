@@ -8,15 +8,15 @@ const SourceCode = () => {
             {"<html>"}<br />
             {"<h1>This is the source code of the header section :D</h1>"}<br />
             {"<h1>The foundation of the website is built with this:</h1>"}<br />
-            {"<img src='/public/horse'>"}<br />
+            {"<canvas style='background-image:url('public/horse.gif')'>"}<br />
             <Image
                 src={horse}
                 height="500"
                 width="500"
                 alt="horse"
-            >    
+            >
             </Image>
-            {"</img>"}<br />
+            {"</canvas>"}<br />
             {"</html>"}
         </div>
     )
