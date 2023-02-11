@@ -11,8 +11,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        main: ["Space Grotesk", "system-ui", "Roboto", "sans-serif"],
-        mono: ["Space Mono", "monospace"]
+        "main": ["Space Grotesk", "system-ui", "Roboto", "sans-serif"],
+        "mono": ["Space Mono", "monospace"],
+        "robo-mono": ["Roboto Mono", "monospace"]
       },
       height: {
         'frame': '48rem'
