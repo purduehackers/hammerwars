@@ -23,7 +23,7 @@ const AboutV3 = () => {
         <div className="flex justify-center h-screen place-items-center max-w-screen">
             <Draggable disabled={!draggable} handle=".handle">
                 <div className="flex flex-col justify-center w-full h-full place-items-center">
-                    <div className="flex w-4/5 h-8 border-t-8 border-black border-x-8 handle bg-amber-200">
+                    <div className="flex w-11/12 h-8 border-t-8 border-black sm:w-4/5 border-x-8 handle bg-amber-200">
                         <div className="flex justify-start w-1/2 pl-5">
                             about.html
                         </div>
@@ -39,7 +39,7 @@ const AboutV3 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-4/5 bg-white border-8 border-black h-3/5">
+                    <div className="w-11/12 bg-white border-8 border-black sm:w-4/5 h-3/5">
                         <div className="flex flex-col h-full overflow-auto place-items-center">
                             <div className="text-6xl font-medium sm:text-7xl md:text-9xl">
                                 <div className="w-fit 
@@ -53,7 +53,7 @@ const AboutV3 = () => {
                         </div>
                         
                     </div>
-                    <div className="flex justify-center w-4/5 gap-8 overflow-y-auto border-b-8 border-black bg-slate-100 h-1/5 border-x-8">
+                    <div className="flex justify-center w-11/12 gap-8 overflow-y-auto border-b-8 border-black sm:w-4/5 bg-slate-100 h-1/5 border-x-8">
                         <div className="flex flex-col place-items-center">
                             <Image
                                 src="/about/file.png"

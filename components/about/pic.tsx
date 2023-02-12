@@ -14,7 +14,7 @@ const Pic = () => {
             <h1 className="text-4xl font-medium">Previous Hammerwars Pic</h1>
             <div className="grid grid-flow-row grid-cols-3 gap-4">
                 {picDirs.map(picDir => (
-                    <div className="">
+                    <div key={picDir}>
                         <Image
                             src={picDir}
                             alt={picDir}
