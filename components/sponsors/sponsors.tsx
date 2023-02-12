@@ -28,14 +28,14 @@ const Sponsors = () => {
                     </div>
                     <div className="w-11/12 bg-white border-8 border-black sm:w-4/5 h-4/5">
                         <div className="flex flex-col h-full overflow-auto place-items-center">
-                            <div className="text-6xl font-medium sm:text-7xl md:text-8xl">
+                            <div className="text-4xl font-medium sm:text-7xl lg:text-8xl">
                                 <div className="w-fit 
                                     bg-gradient-to-r from-violet-400 to-violet-400
                                     bg-no-repeat [background-position:0_100%]
                                     [background-size:100%_0.2em] mt-5"
                                 >Sponsors</div>
                             </div>
-                            <div className="grid grid-flow-row grid-cols-4 gap-4 px-4">
+                            <div className="grid grid-flow-row grid-cols-1 gap-4 px-4 mt-4 sm:grid-cols-2 lg:grid-cols-3">
                                 <div className="flex place-items-center justify-self-center">
                                     <a href="https://www.deloitte.com/global/en.html" target="_blank" rel="noreferrer">
                                         <Image
@@ -51,10 +51,10 @@ const Sponsors = () => {
                                 <div className="flex place-items-center justify-self-center">
                                     <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
                                         <Image
-                                            src="/sponsors/aws.webp"
+                                            src="/sponsors/aws.jpg"
                                             alt="intro"
-                                            width={250}
-                                            height={250}
+                                            width={200}
+                                            height={200}
                                             className="mt-5"
                                         />
                                     </a>

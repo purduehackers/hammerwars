@@ -41,19 +41,21 @@ const AboutV3 = () => {
                     </div>
                     <div className="w-11/12 bg-white border-8 border-black sm:w-4/5 h-3/5">
                         <div className="flex flex-col h-full overflow-auto place-items-center">
-                            <div className="text-6xl font-medium sm:text-7xl md:text-9xl">
+                            <div className="text-4xl font-medium sm:text-7xl lg:text-9xl">
                                 <div className="w-fit 
                                     bg-gradient-to-r from-amber-400 to-amber-400
                                     bg-no-repeat [background-position:0_100%]
                                     [background-size:100%_0.2em] mt-5"
                                 >About</div>
                             </div>
-                            <div className="mt-4"></div>
-                            {files[file as keyof typeof files]}
+                            <div className="mt-4">
+                                {files[file as keyof typeof files]}
+                            </div>
+                            
                         </div>
                         
                     </div>
-                    <div className="flex justify-center w-11/12 gap-8 overflow-y-auto border-b-8 border-black sm:w-4/5 bg-slate-100 h-1/5 border-x-8">
+                    <div className="flex justify-center w-11/12 gap-8 px-4 overflow-y-auto border-b-8 border-black sm:w-4/5 bg-slate-100 h-1/5 border-x-8">
                         <div className="flex flex-col place-items-center">
                             <Image
                                 src="/about/file.png"
