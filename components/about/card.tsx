@@ -12,7 +12,7 @@ const Card = (props: CardProps) => {
     const answerRef = useRef(null);
     const cardRef = useRef(null);
 
-    const cardClass = 'w-48 h-48 p-4 overflow-hidden rounded shadow-lg border-2 border-black'
+    const cardClass = 'w-56 h-56 p-4 overflow-hidden rounded shadow-lg border-2 border-black'
     const questionClass = ''
     const answerClass = 'absolute top-4 left-4'
 
@@ -81,7 +81,7 @@ const Card = (props: CardProps) => {
 
     return (
         <div className="relative" onClick={() => {flipHandler()}}>
-            <div className='w-48 h-48 p-4 overflow-hidden border-2 border-black rounded shadow-lg' ref={cardRef}>
+            <div className='w-56 h-56 p-4 overflow-hidden border-2 border-black rounded shadow-lg' ref={cardRef}>
                 <div className='' ref={questionRef}>
                     {props.question}
                 </div>
