@@ -37,23 +37,27 @@ const Sponsors = () => {
                             </div>
                             <div className="grid grid-flow-row grid-cols-4 gap-4 px-4">
                                 <div className="flex place-items-center justify-self-center">
-                                    <Image
-                                        src="/sponsors/deloitte.png"
-                                        alt="intro"
-                                        width={300}
-                                        height={300}
-                                        className="mt-5"
-                                    />
+                                    <a href="https://www.deloitte.com/global/en.html" target="_blank" rel="noreferrer">
+                                        <Image
+                                            src="/sponsors/deloitte.png"
+                                            alt="intro"
+                                            width={300}
+                                            height={300}
+                                            className="mt-5"
+                                        />
+                                    </a>
                                 </div>
                                 
                                 <div className="flex place-items-center justify-self-center">
-                                    <Image
-                                        src="/sponsors/aws.webp"
-                                        alt="intro"
-                                        width={250}
-                                        height={250}
-                                        className="mt-5"
-                                    />
+                                    <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
+                                        <Image
+                                            src="/sponsors/aws.webp"
+                                            alt="intro"
+                                            width={250}
+                                            height={250}
+                                            className="mt-5"
+                                        />
+                                    </a>
                                 </div>
                             </div>
                         </div> 

@@ -3,13 +3,14 @@ import Draggable from "react-draggable"
 import Image from "next/image"
 import Faq from "./faq"
 import Intro from "./intro"
+import Pic from "./pic"
 
 import { DraggableContext } from '../../context/draggable-context'
 
 const files = {
     "intro": <Intro />,
     "faq": <Faq />,
-    "pic": <div>pic</div>
+    "pic": <Pic />
 }
 
 const AboutV3 = () => {

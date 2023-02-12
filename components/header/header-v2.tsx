@@ -41,7 +41,16 @@ const HeaderV2 = () => {
                                 >Wars_</div>
                             </div>
                             <div className="p-4 text-xl sm:text-2xl">
-                                <span className="text-amber-500">Purdue Hacker</span> & <span className="text-violet-400">CPU</span>
+                                <a className="underline text-amber-500"
+                                    href="https://www.purduehackers.com/" 
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Purdue Hackers</a> & <a className="underline text-violet-400"
+                                    href="https://purduecpu.github.io/" 
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >CPU</a>
                             </div>
                         </div>
                     </div>
