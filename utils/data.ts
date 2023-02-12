@@ -5,3 +5,8 @@ export const madeWith = [
     'a mix of caffeinated and herbal tea',
     'heart and zap'
 ]
+
+export const faqData = [
+    ['Do I need any experience?', 'No prior experience.'],
+    ['Is this competition limited to only Computer Science majors?', 'This competition is open to all majors.']
+]
