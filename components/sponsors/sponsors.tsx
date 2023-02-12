@@ -11,7 +11,7 @@ const Sponsors = () => {
             <Draggable disabled={!draggable} handle=".handle">
                 <div className="flex flex-col justify-center w-full h-full place-items-center">
                     <div className="flex w-11/12 h-8 border-t-8 border-black sm:w-4/5 border-x-8 handle bg-amber-200">
-                        <div className="flex justify-start w-1/2 pl-5">
+                        <div className="flex justify-start w-1/2 pl-2">
                             sponsors.html
                         </div>
                         <div className="flex justify-end w-1/2">

@@ -4,13 +4,15 @@ import Image from "next/image"
 import Faq from "./faq"
 import Intro from "./intro"
 import Pic from "./pic"
+import Poster from "./poster"
 
 import { DraggableContext } from '../../context/draggable-context'
 
 const files = {
     "intro": <Intro />,
     "faq": <Faq />,
-    "pic": <Pic />
+    "pic": <Pic />,
+    "poster": <Poster />
 }
 
 const AboutV3 = () => {
@@ -24,7 +26,7 @@ const AboutV3 = () => {
             <Draggable disabled={!draggable} handle=".handle">
                 <div className="flex flex-col justify-center w-full h-full place-items-center">
                     <div className="flex w-11/12 h-8 border-t-8 border-black sm:w-4/5 border-x-8 handle bg-amber-200">
-                        <div className="flex justify-start w-1/2 pl-5">
+                        <div className="flex justify-start w-1/2 pl-2">
                             about.html
                         </div>
                         <div className="flex justify-end w-1/2">
@@ -82,6 +84,20 @@ const AboutV3 = () => {
                             <p className={file == "faq" ? "bg-blue-300": ""}>
                                 faq<br />
                                 .txt
+                            </p>
+                        </div>
+                        <div className="flex flex-col place-items-center">
+                            <Image
+                                src="/about/poster.png"
+                                alt="faq"
+                                width={60}
+                                height={60}
+                                className="mt-5"
+                                onClick={() => setFile("poster")}
+                            />
+                            <p className={file == "poster" ? "bg-blue-300": ""}>
+                                poster<br />
+                                .png
                             </p>
                         </div>
                         <div className="flex flex-col place-items-center">

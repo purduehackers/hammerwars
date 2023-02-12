@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { useState, useEffect, useMemo } from 'react'
 
 import HeaderV2 from 'components/header/header-v2'
+import HeaderV3 from 'components/header/header-v3'
 import AboutV3 from 'components/about/about-v3'
 import Sponsors from 'components/sponsors/sponsors'
 import Footer from 'components/footer/footer'
@@ -52,7 +53,7 @@ export default function Home() {
 
   return (
     <DraggableContext.Provider value={value}>
-      <HeaderV2 />
+      <HeaderV3 />
       <AboutV3 />
       <Sponsors />
       <Footer />
