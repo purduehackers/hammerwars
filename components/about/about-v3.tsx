@@ -62,8 +62,8 @@ const AboutV3 = () => {
                             <Image
                                 src="/about/file.png"
                                 alt="intro"
-                                width={60}
-                                height={60}
+                                width={50}
+                                height={50}
                                 className="mt-5"
                                 onClick={() => setFile("intro")}
                             />
@@ -74,7 +74,7 @@ const AboutV3 = () => {
                         </div>
                         <div className="flex flex-col place-items-center">
                             <Image
-                                src="/about/file.png"
+                                src="/about/faq.svg"
                                 alt="faq"
                                 width={60}
                                 height={60}
@@ -90,8 +90,8 @@ const AboutV3 = () => {
                             <Image
                                 src="/about/poster.png"
                                 alt="faq"
-                                width={60}
-                                height={60}
+                                width={45}
+                                height={45}
                                 className="mt-5"
                                 onClick={() => setFile("poster")}
                             />
@@ -104,8 +104,8 @@ const AboutV3 = () => {
                             <Image
                                 src="/about/folder.png"
                                 alt="Picture of the author"
-                                width={70}
-                                height={70}
+                                width={85}
+                                height={85}
                                 className="mt-5"
                                 onClick={() => setFile("pic")}
                             />
