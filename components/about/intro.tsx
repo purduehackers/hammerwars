@@ -1,6 +1,6 @@
 const Intro = () => {
     return (
-        <div className="px-4 pb-5">
+        <div className="px-4 mb-10">
             <h1 className="text-2xl font-medium text-center sm:text-3xl lg:text-4xl">What is Hammerwars?</h1>
             <div className="flex justify-center mt-4">
                 <p className="lg:w-3/5">
