@@ -2,6 +2,12 @@ const plugin = require('tailwindcss/plugin')
 
 const rotateY = plugin(function ({ addUtilities }) {
   addUtilities({
+    '.transform-0.6': {
+      transition: 'transform 0.6s',
+    },
+    '.preserve-3d': {
+      transformStyle: 'preserve-3d',
+    },
     '.rotate-y-180': {
       transition: 'transform 0.6s',
       transformStyle: 'preserve-3d',
@@ -12,6 +18,9 @@ const rotateY = plugin(function ({ addUtilities }) {
       transformStyle: 'preserve-3d',
       transform: 'rotateY(0deg)',
     },
+    '.backface-visibility-hidden': {
+      backfaceVisibility: "hidden",
+    }
   })
 })
 
