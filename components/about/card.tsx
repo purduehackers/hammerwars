@@ -33,7 +33,7 @@ const Card = (props: CardProps) => {
                 <div className="absolute p-4 border-2 border-black rounded shadow-lg w-44 h-44 backface-visibility-hidden">
                     {props.question}                    
                 </div>
-                <div className="absolute p-4 overflow-y-scroll border-2 border-black rounded shadow-lg w-44 h-44 rotate-y-180 backface-visibility-hidden">
+                <div className="absolute p-4 overflow-y-auto border-2 border-black rounded shadow-lg bg-slate-100 w-44 h-44 rotate-y-180 backface-visibility-hidden">
                     {props.answer}
                 </div>
             </div>
