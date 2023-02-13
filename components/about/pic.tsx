@@ -7,7 +7,6 @@ const Pic = () => {
     for (let i = 0; i < picCount; ++i) {
         picDirs.push(`/about/pic/${i}.JPG`);
     }
-    console.log(picDirs)
     
     return (
         <div className="px-4 mb-10">

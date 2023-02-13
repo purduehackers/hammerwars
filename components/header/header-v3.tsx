@@ -7,6 +7,17 @@ import { DraggableContext } from '../../context/draggable-context'
 
 const HeaderV3 = () => {
     const { draggable } = useContext(DraggableContext);
+
+    const accessBrokenPortal = () => {
+        const theyDontCare = confirm("🐴 Sugar: The application is not open yet. Continuing might enter a broken application portal. Are you sure you want to conitnue? I strongly recommand you not to...");
+        if (theyDontCare) {
+            window.location.href = "/broken-portal";
+        }
+        else {
+            alert("🐴 Sugar: wise decision.")
+        }
+    }
+
     return (
         <div className="flex justify-center h-screen place-items-center max-w-screen">
             <Draggable disabled={!draggable} handle=".handle">
@@ -64,6 +75,7 @@ const HeaderV3 = () => {
                                     rel="noreferrer"
                                 >CPU</a>
                             </div>
+                            <button className="px-4 py-2 rounded-full bg-sky-300" onClick={() => accessBrokenPortal()}>Apply Now!</button>
                         </div>
                     </div>
                 </div>
