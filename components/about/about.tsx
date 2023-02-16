@@ -14,12 +14,7 @@ const About = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center h-full p-4 font-mono font-medium text-9xl sm:text-6xl md:text-9xl">
-          <div
-            className="w-fit
-                        bg-gradient-to-r from-amber-400 to-amber-400
-                        bg-no-repeat [background-position:0_100%]
-                        [background-size:100%_0.2em]"
-          >
+          <div className="w-fit bg-gradient-to-r from-amber-400 to-amber-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em]">
             About
           </div>
         </div>

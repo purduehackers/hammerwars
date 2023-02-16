@@ -5,6 +5,7 @@ import Faq from "./faq";
 import Intro from "./intro";
 import Pic from "./pic";
 import Poster from "./poster";
+import PosterV2 from "./poster-v2";
 
 import { DraggableContext } from "../../context/draggable-context";
 
@@ -22,7 +23,7 @@ const AboutV3 = () => {
   const selectedAttributes = "";
 
   return (
-    <div className="flex justify-center h-screen place-items-center max-w-screen">
+    <div className="relative flex justify-center h-screen place-items-center max-w-screen">
       <Draggable disabled={!draggable} handle=".handle">
         <div className="flex flex-col justify-center w-full h-full place-items-center">
           <div className="flex w-11/12 h-8 border-t-8 border-black sm:w-4/5 border-x-8 handle bg-amber-200">
@@ -42,12 +43,7 @@ const AboutV3 = () => {
           <div className="w-11/12 bg-white border-8 border-black sm:w-4/5 h-3/5">
             <div className="flex flex-col h-full overflow-auto place-items-center">
               <div className="text-4xl font-medium sm:text-7xl lg:text-9xl">
-                <div
-                  className="w-fit 
-                                    bg-gradient-to-r from-amber-400 to-amber-400
-                                    bg-no-repeat [background-position:0_100%]
-                                    [background-size:100%_0.2em] mt-5"
-                >
+                <div className="w-fit bg-gradient-to-r from-amber-400 to-amber-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em] mt-5">
                   About
                 </div>
               </div>
@@ -117,6 +113,9 @@ const AboutV3 = () => {
           </div>
         </div>
       </Draggable>
+      <div className="absolute right-0 hidden md:block">
+        <PosterV2 />
+      </div>
     </div>
   );
 };
