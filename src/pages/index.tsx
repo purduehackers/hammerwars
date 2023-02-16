@@ -14,7 +14,7 @@ import {
   DraggableInterface,
 } from "context/draggable-context";
 import SponsorsV2 from "components/sponsors/sponsors-v2";
-import PosterV2 from "components/about/poster-v2";
+import PosterV2 from "components/about/poster-window";
 
 export default function Home() {
   // Disable draggable feature on small screen

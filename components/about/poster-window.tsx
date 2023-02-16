@@ -1,7 +1,7 @@
 import SmallWindow from "components/small-window";
 import Image from "next/image";
 
-const PosterV2 = () => {
+const PosterWindow = () => {
   const content = (
     <Image src={"/about/poster.png"} alt="poster" width={500} height={500} />
   );
@@ -10,4 +10,4 @@ const PosterV2 = () => {
   );
 };
 
-export default PosterV2;
+export default PosterWindow;

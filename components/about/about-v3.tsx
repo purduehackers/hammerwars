@@ -5,7 +5,8 @@ import Faq from "./faq";
 import Intro from "./intro";
 import Pic from "./pic";
 import Poster from "./poster";
-import PosterV2 from "./poster-v2";
+import PosterWindow from "./poster-window";
+import PicWindow from "./pic-window";
 
 import { DraggableContext } from "../../context/draggable-context";
 
@@ -113,8 +114,11 @@ const AboutV3 = () => {
           </div>
         </div>
       </Draggable>
-      <div className="absolute right-0 hidden md:block">
-        <PosterV2 />
+      <div className="absolute right-0 hidden md:block top-64">
+        <PosterWindow />
+      </div>
+      <div className="absolute bottom-0 left-0 hidden md:block">
+        <PicWindow />
       </div>
     </div>
   );
