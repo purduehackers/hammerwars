@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import Image from "next/image";
 import SectionWindow from "components/section-window";
+import PicWindow from "components/about/pic-window";
 
 const SponsorsV2 = () => {
   const content = (
@@ -38,6 +39,12 @@ const SponsorsV2 = () => {
             />
           </a>
         </div>
+      </div>
+      <div className="absolute left-0 hidden top-80 md:block">
+        <PicWindow />
+      </div>
+      <div className="absolute bottom-0 hidden right-12 md:block">
+        <PicWindow />
       </div>
     </div>
   );

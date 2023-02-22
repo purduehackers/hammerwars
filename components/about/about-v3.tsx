@@ -114,10 +114,13 @@ const AboutV3 = () => {
           </div>
         </div>
       </Draggable>
-      <div className="absolute right-0 hidden md:block top-64">
+      <div className="absolute right-0 hidden md:block top-96">
         <PosterWindow />
       </div>
-      <div className="absolute bottom-0 left-0 hidden md:block">
+      <div className="absolute bottom-0 hidden left-8 md:block">
+        <PicWindow />
+      </div>
+      <div className="absolute top-0 hidden right-4 md:block">
         <PicWindow />
       </div>
     </div>
