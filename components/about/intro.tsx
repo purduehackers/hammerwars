@@ -13,9 +13,10 @@ const Intro = () => {
           </p>
           <br />
           <p>
-            Our purpose is to help jumpstart students' critical thinking skills
-            by solving coding interview problems in a competitive format, which
-            is essential to obtaining future internship and job opportunities.
+            Our purpose is to help jumpstart students&apos; critical thinking
+            skills by solving coding interview problems in a competitive format,
+            which is essential to obtaining future internship and job
+            opportunities.
           </p>
           <br />
           <p>

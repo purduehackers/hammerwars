@@ -54,6 +54,7 @@ const HeaderV4 = () => {
         href="https://puhack.horse/apply2hammerwars"
         className="px-4 py-2 rounded-full cursor-pointer bg-sky-300"
         target="_blank"
+        rel="noreferrer"
       >
         Apply Now!
       </a>
