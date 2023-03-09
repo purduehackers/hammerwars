@@ -9,7 +9,7 @@ const Intro = () => {
           <p>
             Hammer Wars is a competitive programming competition hosted by
             Purdue Hackers and Purdue CPU and sponsored by AWS and Deloitte.
-            This year, Hammer Wars will be held on Saturday, April 1st @ X-X PM.
+            This year, Hammer Wars will be held on Saturday, April 1st @ 2 PM.
           </p>
           <br />
           <p>
