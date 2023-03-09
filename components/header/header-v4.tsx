@@ -50,12 +50,19 @@ const HeaderV4 = () => {
           CPU
         </a>
       </div>
-      <button
+      <a
+        href="https://puhack.horse/apply2hammerwars"
+        className="px-4 py-2 rounded-full cursor-pointer bg-sky-300"
+        target="_blank"
+      >
+        Apply Now!
+      </a>
+      {/* <button
         className="px-4 py-2 rounded-full bg-sky-300"
         onClick={() => accessBrokenPortal()}
       >
         Apply Now!
-      </button>
+      </button> */}
     </div>
   );
 
