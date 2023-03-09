@@ -21,7 +21,7 @@ const Intro = () => {
           <br />
           <p>
             All undergraduate Purdue students are invited to participate. There
-            will be free swag, food, as well as $XXXX in prizes!
+            will be free swag, food, as well as $1,800 in prizes!
           </p>
           <br />
           <p>
