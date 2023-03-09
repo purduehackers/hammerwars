@@ -40,7 +40,7 @@ const SponsorsV2 = () => {
           </a>
         </div>
       </div>
-      <div className="absolute left-0 hidden top-80 md:block">
+      <div className="absolute left-0 hidden top-96 md:block">
         <PicWindow />
       </div>
       <div className="absolute bottom-0 hidden right-12 md:block">
