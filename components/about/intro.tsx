@@ -5,22 +5,29 @@ const Intro = () => {
         What is Hammerwars?
       </h1>
       <div className="flex justify-center mt-4">
-        <p className="lg:w-3/5">
-          Lorem ipsum dolor sit amet. Ex provident quasi sit sunt possimus sit
-          quae voluptatem aut eligendi mollitia? Ut dolores vitae est
-          repellendus quasi vel minima voluptatem ut quae voluptas. Est
-          quibusdam voluptatum et asperiores dignissimos ex enim assumenda ut
-          illum similique et quia eveniet. Ut aperiam provident et minus
-          corporis nam distinctio corrupti et voluptas repellat aut voluptate
-          sequi. Rem fugiat doloribus non nihil aperiam ut porro expedita qui
-          consequatur aspernatur hic labore dolor sed dolores eaque. Eos error
-          iusto eum quaerat fugiat ex blanditiis doloribus! Cum labore eligendi
-          ut consectetur doloremque aut voluptates provident ea eligendi totam
-          est earum dolorem aut maiores odit est quidem vitae. Vel dicta velit
-          et molestiae velit aut aliquam nisi et officia voluptatem eos esse
-          necessitatibus? Ea consequatur consequatur quo reiciendis quibusdam
-          vel eveniet modi non ratione possimus!
-        </p>
+        <div className="lg:w-3/5">
+          <p>
+            Hammer Wars is a competitive programming competition hosted by
+            Purdue Hackers and Purdue CPU and sponsored by AWS and Deloitte.
+            This year, Hammer Wars will be held on Saturday, April 1st @ X-X PM.
+          </p>
+          <br />
+          <p>
+            Our purpose is to help jumpstart students' critical thinking skills
+            by solving coding interview problems in a competitive format, which
+            is essential to obtaining future internship and job opportunities.
+          </p>
+          <br />
+          <p>
+            All undergraduate Purdue students are invited to participate. There
+            will be free swag, food, as well as $XXXX in prizes!
+          </p>
+          <br />
+          <p>
+            The first 100 people to register for Hammer Wars will get a free
+            t-shirt!
+          </p>
+        </div>
       </div>
     </div>
   );
