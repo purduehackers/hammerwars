@@ -14,18 +14,21 @@ export const madeWith = [
 ];
 
 export const faqData = [
-  ["Do I need any experience?", "No prior experience."],
   [
-    "Is this competition limited to only Computer Science majors?",
-    "This competition is open to all majors.",
+    "Do I need any experience?",
+    "Nope! We'll help you get started, and there will be a section for all skill levels. The majority of attendees actually tend to be beginners!",
   ],
   [
-    "Is this a Hackathon?",
-    "Nope, you will be solving coding interview problems through the CodeForces website. Maybe in another competition.",
+    "Is HammerWars limited to only Computer Science majors?",
+    "Nope! HammerWars is open to all majors.",
+  ],
+  [
+    "Is this a hackathon?",
+    "Nope, HammerWars is a competitive coding competition. Instead of making a project, you'll solve coding interview problems through the CodeForces website.",
   ],
   [
     "Are we able to work in groups?",
-    "You will tackle programming problems individually.",
+    "No, you will tackle programming problems individually.",
   ],
   [
     "I'm not quite sure what level I'm fit for, how can I change that?",
