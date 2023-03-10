@@ -28,16 +28,16 @@ const Card = (props: CardProps) => {
 
   return (
     <div
-      className="overflow-hidden w-44 h-44"
+      className="overflow-hidden w-72 sm:w-64 h-44"
       onClick={() => {
         flipHandler();
       }}
     >
       <div className="relative" ref={cardRef}>
-        <div className="absolute p-4 border-2 border-black rounded shadow-lg cursor-pointer w-44 h-44 backface-visibility-hidden">
+        <div className="absolute p-4 border-2 border-black rounded shadow-lg cursor-pointer w-72 sm:w-64 h-44 backface-visibility-hidden">
           {props.question}
         </div>
-        <div className="absolute p-4 overflow-y-auto border-2 border-black rounded shadow-lg cursor-pointer  bg-slate-100 w-44 h-44 rotate-y-180 backface-visibility-hidden">
+        <div className="absolute p-4 overflow-y-auto border-2 border-black rounded shadow-lg cursor-pointer bg-slate-100 w-72 sm:w-64 h-44 rotate-y-180 backface-visibility-hidden">
           {props.answer}
         </div>
       </div>
