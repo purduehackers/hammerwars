@@ -17,21 +17,25 @@ const HeaderV4 = () => {
 
   const content = (
     <div className="flex flex-col items-center justify-center h-full p-4 font-mono">
-      <div className="flex">
-        <div className="text-4xl font-medium sm:text-7xl lg:text-9xl">
-          <div className="w-fit bg-gradient-to-r from-green-400 to-green-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em]">
+      <div className="flex flex-col-reverse sm:flex-row items-center justify-center">
+        <div className="text-6xl font-medium sm:text-7xl lg:text-9xl">
+          <h1 className="bg-gradient-to-r from-green-400 to-green-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em]">
             Hammer
-          </div>
-          <div className="w-fit text-4xl font-medium sm:text-7xl lg:text-9xl bg-gradient-to-r from-green-400 to-green-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em]">
+          </h1>
+          <h1 className="bg-gradient-to-r from-green-400 to-green-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em]">
             Wars_
-          </div>
+          </h1>
         </div>
-        <div className="relative w-20 sm:w-32 lg:w-44 xl:w-60">
-          <Image src={"/icon.svg"} alt="poster" fill className="mt-5" />
+        <div className="relative w-20 sm:w-32 lg:w-44 xl:w-60 h-20 sm:h-32 lg:h-44 xl:h-60">
+          <Image src={"/icon.svg"} alt="HammerWars Logo" fill />
         </div>
       </div>
 
-      <div className="p-4 text-lg sm:text-xl lg:text-2xl">
+      <div className="p-4 text-lg sm:text-xl lg:text-2xl text-center">
+        <h2 className="font-bold mt-6 mb-2 text-2xl sm:text-3xl text-left">
+          Saturday, April 1 @ WALC
+        </h2>
+        <h3 className="mb-8 text-xl">2:00-7:00pm</h3>
         <a
           className="underline text-amber-500"
           href="https://www.purduehackers.com/"
@@ -52,7 +56,7 @@ const HeaderV4 = () => {
       </div>
       <a
         href="https://puhack.horse/apply2hammerwars"
-        className="px-4 py-2 rounded-full cursor-pointer bg-sky-300"
+        className="px-4 py-2 font-bold rounded cursor-pointer bg-sky-300 hover:bg-sky-400 transition duration-100 border-[3px] border-black"
         target="_blank"
         rel="noreferrer"
       >
