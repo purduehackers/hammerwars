@@ -17,7 +17,7 @@ const HeaderV4 = () => {
 
   const content = (
     <div className="flex flex-col items-center justify-center h-full p-4 font-mono">
-      <div className="flex flex-col-reverse sm:flex-row">
+      <div className="flex flex-col-reverse sm:flex-row items-center justify-center">
         <div className="text-6xl font-medium sm:text-7xl lg:text-9xl">
           <h1 className="bg-gradient-to-r from-green-400 to-green-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em]">
             Hammer
@@ -27,12 +27,7 @@ const HeaderV4 = () => {
           </h1>
         </div>
         <div className="relative w-20 sm:w-32 lg:w-44 xl:w-60 h-20 sm:h-32 lg:h-44 xl:h-60">
-          <Image
-            src={"/icon.svg"}
-            alt="HammerWars Logo"
-            fill
-            className="sm:mt-5"
-          />
+          <Image src={"/icon.svg"} alt="HammerWars Logo" fill />
         </div>
       </div>
 
@@ -61,7 +56,7 @@ const HeaderV4 = () => {
       </div>
       <a
         href="https://puhack.horse/apply2hammerwars"
-        className="px-4 py-2 rounded-full cursor-pointer bg-sky-300"
+        className="px-4 py-2 font-bold rounded cursor-pointer bg-sky-300 hover:bg-sky-400 transition duration-100 border-[3px] border-black"
         target="_blank"
         rel="noreferrer"
       >
