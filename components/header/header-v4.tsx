@@ -19,12 +19,12 @@ const HeaderV4 = () => {
     <div className="flex flex-col items-center justify-center h-full p-4 font-mono">
       <div className="flex">
         <div className="text-4xl font-medium sm:text-7xl lg:text-9xl">
-          <div className="w-fit bg-gradient-to-r from-green-400 to-green-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em]">
+          <h1 className="w-fit bg-gradient-to-r from-green-400 to-green-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em]">
             Hammer
-          </div>
-          <div className="w-fit text-4xl font-medium sm:text-7xl lg:text-9xl bg-gradient-to-r from-green-400 to-green-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em]">
+          </h1>
+          <h1 className="w-fit text-4xl font-medium sm:text-7xl lg:text-9xl bg-gradient-to-r from-green-400 to-green-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em]">
             Wars_
-          </div>
+          </h1>
         </div>
         <div className="relative w-20 sm:w-32 lg:w-44 xl:w-60">
           <Image src={"/icon.svg"} alt="poster" fill className="mt-5" />
