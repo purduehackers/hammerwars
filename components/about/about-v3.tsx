@@ -42,7 +42,7 @@ const AboutV3 = () => {
             </div>
           </div>
           <div className="w-11/12 bg-white border-8 border-black sm:w-4/5 h-3/5">
-            <div className="flex flex-col h-full overflow-auto items-center">
+            <div className="flex flex-col items-center h-full overflow-auto">
               <div className="text-4xl font-medium sm:text-7xl lg:text-9xl">
                 <h1 className="w-fit bg-gradient-to-r from-amber-400 to-amber-400 bg-no-repeat [background-position:0_100%] [background-size:100%_0.2em] mt-5">
                   About
@@ -107,7 +107,7 @@ const AboutV3 = () => {
                 onClick={() => setFile("pic")}
               />
               <p className={file == "pic" ? "bg-blue-300" : ""}>
-                pic
+                past_pic
                 <br />
               </p>
             </div>
