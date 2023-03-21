@@ -16,7 +16,7 @@ const PicWindow = () => {
     <Image src={imgURL} alt="random pic" width={500} height={500} />
   );
 
-  return <SmallWindow content={content} title={"cool_pic.png"} link={imgURL} />;
+  return <SmallWindow content={content} title={"past_pic.png"} link={imgURL} />;
 };
 
 export default PicWindow;
