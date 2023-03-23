@@ -1,4 +1,8 @@
-import { Instagram, Discord, Github } from '@icons-pack/react-simple-icons'
+import {
+  Siinstagram,
+  Sidiscord,
+  Sigithub,
+} from "@icons-pack/react-simple-icons";
 
 const FooterLinks = () => (
   <div className="flex flex-row justify-center gap-x-8">
@@ -8,7 +12,7 @@ const FooterLinks = () => (
       target="_blank"
       rel="noreferrer"
     >
-      <Github height={32} width={32} />
+      <Sigithub height={32} width={32} />
     </a>
     <a
       href="https://instagram.com/purduehackers"
@@ -16,7 +20,7 @@ const FooterLinks = () => (
       target="_blank"
       rel="noreferrer"
     >
-      <Instagram height={32} width={32} />
+      <Siinstagram height={32} width={32} />
     </a>
     <a
       href="https://puhack.horse/discord"
@@ -24,9 +28,9 @@ const FooterLinks = () => (
       target="_blank"
       rel="noreferrer"
     >
-      <Discord height={32} width={32} />
+      <Sidiscord height={32} width={32} />
     </a>
   </div>
-)
+);
 
-export default FooterLinks
+export default FooterLinks;
