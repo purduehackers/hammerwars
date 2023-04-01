@@ -15,6 +15,7 @@ import {
 } from "context/draggable-context";
 import SponsorsV2 from "components/sponsors/sponsors-v2";
 import PosterV2 from "components/about/poster-window";
+import Schedule from "components/schedule/schedule";
 
 export default function Home() {
   // Disable draggable feature on small screen
@@ -60,6 +61,7 @@ export default function Home() {
   return (
     <DraggableContext.Provider value={value}>
       <HeaderV4 />
+      <Schedule />
       <AboutV3 />
       <SponsorsV2 />
       <Footer />
