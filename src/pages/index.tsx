@@ -2,19 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import { useState, useEffect, useMemo } from "react";
 
-import HeaderV2 from "components/header/header-v2";
-import HeaderV3 from "components/header/header-v3";
 import HeaderV4 from "components/header/header-v4";
 import AboutV3 from "components/about/about-v3";
-import Sponsors from "components/sponsors/sponsors";
 import Footer from "components/footer/footer";
-import SectionWindow from "components/section-window";
+
 import {
   DraggableContext,
   DraggableInterface,
 } from "context/draggable-context";
 import SponsorsV2 from "components/sponsors/sponsors-v2";
-import PosterV2 from "components/about/poster-window";
 import Schedule from "components/schedule/schedule";
 
 export default function Home() {
