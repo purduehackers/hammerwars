@@ -5,6 +5,7 @@ import Draggable from "react-draggable";
 
 interface ISectionWindowProp {
   content: JSX.Element;
+  title: string;
 }
 
 const SectionWindow = (props: ISectionWindowProp) => {
@@ -16,7 +17,7 @@ const SectionWindow = (props: ISectionWindowProp) => {
         <div className="flex flex-col justify-center w-full h-full place-items-center">
           <div className="flex w-11/12 h-8 border-t-8 border-black sm:w-4/5 border-x-8 handle bg-amber-200">
             <div className="flex justify-start w-1/2 pl-2 underline truncate">
-              <Link href="/source-code">header.html</Link>
+              <Link href="/source-code">{props.title}</Link>
             </div>
             <div className="flex justify-end w-1/2">
               <div className="flex justify-center w-8 border-l-8 border-black place-items-center">

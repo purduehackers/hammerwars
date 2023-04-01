@@ -35,7 +35,7 @@ const Schedule = () => {
       </div>
     </div>
   );
-  return <SectionWindow content={content} />;
+  return <SectionWindow content={content} title="schedule.html" />;
 };
 
 export default Schedule;
