@@ -48,7 +48,7 @@ const SponsorsV2 = () => {
       </div>
     </div>
   );
-  return <SectionWindow content={content} />;
+  return <SectionWindow content={content} title="sponsors.html" />;
 };
 
 export default SponsorsV2;

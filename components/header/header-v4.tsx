@@ -81,7 +81,7 @@ const HeaderV4 = () => {
     </div>
   );
 
-  return <SectionWindow content={content} />;
+  return <SectionWindow content={content} title="header.html" />;
 };
 
 export default HeaderV4;
