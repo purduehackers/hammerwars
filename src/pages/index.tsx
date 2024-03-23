@@ -55,8 +55,6 @@ export default function Home() {
     };
   });
 
-  const modalClosed = useState(false);
-
   return (
     <DraggableContext.Provider value={value}>
       <NewHammerWars/>
