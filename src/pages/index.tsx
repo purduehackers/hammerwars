@@ -12,6 +12,7 @@ import {
 } from "context/draggable-context";
 import SponsorsV2 from "components/sponsors/sponsors-v2";
 import Schedule from "components/schedule/schedule";
+import NewHammerWars from "components/header/new-hammerwars";
 
 export default function Home() {
   // Disable draggable feature on small screen
@@ -56,6 +57,7 @@ export default function Home() {
 
   return (
     <DraggableContext.Provider value={value}>
+      <NewHammerWars/>
       <HeaderV4 />
       <Schedule />
       <AboutV3 />
