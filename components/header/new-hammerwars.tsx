@@ -18,10 +18,9 @@ const NewHammerWars = () => {
         </h2>
         <h3 className="mb-8 text-xl">For the latest contest, go to:</h3>
         <a
-        className="px-4 py-2 underline text-black font-bold text-3xl rounded
+          className="px-4 py-2 underline text-black font-bold text-3xl rounded
           cursor-pointer bg-amber-400 hover:bg-amber-200 transition duration-100
           border-[3px] border-black"
-
           href="https://hammerwars.win"
           target="_blank"
           rel="noreferrer"
@@ -29,7 +28,12 @@ const NewHammerWars = () => {
           HammerWars 3
         </a>
       </div>
-      <p className="mt-5 md:px-9" ><i>It's 2024. That was a year ago. Just stop thinking in the past. You have to get over this. Do it for me. Please, wake up, please...</i></p>
+      <p className="mt-5 md:px-9">
+        <i>
+          It&rsquo;s 2024. That was a year ago. Just stop thinking in the past.
+          You have to get over this. Do it for me. Please, wake up, please...
+        </i>
+      </p>
     </div>
   );
 
